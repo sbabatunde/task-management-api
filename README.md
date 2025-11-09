@@ -16,11 +16,8 @@ API Documentation
 
 Testing
 
-Project Structure
 
-Deployment
 
-Troubleshooting
 
 🚀 Features
 User Authentication (Register, Login, Logout)
@@ -43,9 +40,7 @@ Backend: Laravel 12
 Authentication: Laravel Sanctum
 
 Database: MySQL
-
-Testing: Pest PHP
-
+s
 Validation: Laravel Form Requests
 
 📋 Prerequisites
