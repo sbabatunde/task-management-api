@@ -101,61 +101,6 @@ Step 6: Serve the Application
 php artisan serve
 Application will be available at: http://localhost:8000
 
-📚 API Documentation
-Base URL
-text
-http://localhost:8000/api
-Authentication Endpoints
-Register User
-http
-POST /auth/register
-Content-Type: application/json
-
-{
-    "name": "John Doe",
-    "email": "john@example.com",
-    "password": "Password123!",
-    "password_confirmation": "Password123!"
-}
-Login
-http
-POST /auth/login
-Content-Type: application/json
-
-{
-    "email": "john@example.com",
-    "password": "Password123!"
-}
-Logout
-http
-POST /auth/logout
-Authorization: Bearer {token}
-Get Authenticated User
-http
-GET /auth/user
-Authorization: Bearer {token}
-Task Endpoints
-Get All Tasks
-http
-GET /tasks
-Authorization: Bearer {token}
-Query Parameters:
-
-status - Filter by status (Pending, In Progress, Completed)
-
-page - Pagination page number
-
-Create Task
-http
-POST /tasks
-Authorization: Bearer {token}
-Content-Type: application/json
-
-{
-    "title": "Task Title",
-    "description": "Task Description"
-}
-
 markdown
 # Task Management API
 
